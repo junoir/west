@@ -1,0 +1,293 @@
+body {
+    font-style: lato;
+}
+
+h1, h2, h3{
+  font-family: lato;
+  font-style: bold;
+
+}
+
+.navbar-right{ margin:5%;}
+.imgTest{ height:100%;}
+
+/* ======== Carousel caption======== */
+.carousel-caption{
+  font-color: #4d738a;
+}
+
+/* ======== Home find out more======== */
+.btn-block {
+  background: #4d738a;
+}
+
+a.btn.btn-lg.btn-default.btn-block.wow.rollIn{
+
+font-size: 100%;
+}
+
+.btn-default {
+    color: #fff;
+    /* background-color: #fff; */
+    border-color: #ccc;
+
+
+}
+
+
+/* ======== Home welcome======== */
+#welcome{
+    text-align: left;
+}
+
+
+
+/* ======== Home 3 round images======== */
+.circle{
+    width: 30%;
+    height: auto;
+  }
+
+.panel-heading {
+text-align: -webkit-center;
+
+}
+
+.purpleText{ color:#7f2654; }
+
+/* ======== Home 3 round read more======== */
+a.btn.btn-primary {
+    background: #4d738a;
+}
+
+
+/* ======== footer logo======== */
+.white{
+  width: 200px;
+  height: auto;
+}
+
+
+/* ======== Footer======== */
+#footer {
+  background-color: #4d738a;
+  color: #fff;
+  font-style: #fff;
+}
+.footermenu{
+color: #9d9d9d; 
+
+}
+
+#footer{
+  padding-top: 2%;
+}
+.copyright{
+  font color: #fff;
+  font-style: bold;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #7f2654;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+
+
+
+/* ========medical row======== */
+
+.row {
+    margin-right: 8%;
+    margin-left: 8%;
+}
+/* ========Medical======== */
+
+
+
+a {
+    color: #4d738a;
+    text-decoration: none;
+}
+
+
+
+/* ========Responsive nav button======== */
+button.navbar-toggle {
+        background-color: #4d738a;
+
+    position: relative;
+    float: right;
+    padding: 2%;
+    margin-top: 10%;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+
+nav.navbar.navbar-inverse {
+      border-radius:0px;
+      background-color: #fff;
+
+}
+
+.navbar-inverse {
+    border: 0px;
+}
+
+
+navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #7f2654;
+    background-color: transparent;
+}
+/* ========about section======== */
+#about{
+    text-align: justify;
+padding: 2%;
+}
+
+.about{
+  width: 100%;
+}
+
+/* ========Contact send======== */
+.btn-info:hover {
+    color: #fff;
+    background-color: #7f2654;
+}
+.btn-info {
+    color: #fff;
+    background-color: #4d738a;
+}
+
+/* ========Product box style======== */
+.product{
+    background-color: lightblue;
+    width:90%;
+    border color: #000;
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+
+/* ========map======= */
+.map{
+    width: 100%;
+}
+
+/*====== Modal Controls ======*/
+.modal-title {
+    margin: 0;
+    line-height: 1.428571429;
+    text-align: center;
+    color: #1c783b;
+    font-size: 25px;
+}
+
+.modal-body p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+@media (min-width: 768px){
+  .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+    border-bottom-color: #fff;
+}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+    border: 1px solid #ddd;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #4d738a;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    text-align: center;
+}
+}
+
+
+/* ======== menu======== */
+
+@media (min-width: 768px){
+  .navbar-nav>li>a {
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+}
+
+
+/*------- Phone Portrait -------*/
+
+@media(max-width:380px) {
+
+h3{ font-size: 16px;}
+
+
+.navbar-brand>img {
+  width: 20%;
+  height: auto;
+}
+
+.imgTest{ width: 80%;}
+
+.divider{}
+
+section {
+  padding: 1%
+}
+
+p, h1{ text-align: center;}
+.white{ width: 100%;}
+section#footer{ padding: 2%;}
+.footertext{ text-align: center;}
+.text-right{text-align:center;}
+
+
+
+
+button.btn.btn-info.navbar-btn.disable {
+    text-align: center;
+    padding: 5% 40%;
+}
+
+.col-lg-12.map {
+    width: 100%;
+    text-align: center;
+}
+
+.imgTest {
+    width: 60%;
+}
+
+}
+
+
